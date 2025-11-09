@@ -1,6 +1,6 @@
 // src/components/UserPanel.tsx
 import React, { useState } from 'react';
-import { useApp } from '../context/appContext';
+import { useApp } from '../context/AppContext';
 import { UserPlus, X } from 'lucide-react';
 
 export const UserPanel: React.FC = () => {

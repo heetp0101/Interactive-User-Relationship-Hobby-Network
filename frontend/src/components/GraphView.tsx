@@ -13,7 +13,7 @@ import ReactFlow, {
   type EdgeMouseHandler,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
-import { useApp } from '../context/appContext';
+import { useApp } from '../context/AppContext';
 import { HighScoreNode, LowScoreNode } from './CustomNode';
 
 const nodeTypes: NodeTypes = {

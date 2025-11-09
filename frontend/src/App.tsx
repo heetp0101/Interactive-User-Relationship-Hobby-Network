@@ -1,7 +1,7 @@
 // src/App.tsx
 import { useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
-import { AppProvider, useApp } from './context/appContext';
+import { AppProvider, useApp } from './context/AppContext';
 import { GraphView } from './components/GraphView';
 import { HobbySidebar } from './components/HobbySidebar';
 import { UserPanel } from './components/UserPanel';

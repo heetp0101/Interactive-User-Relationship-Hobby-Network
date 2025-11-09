@@ -1,6 +1,6 @@
 // src/components/HobbySidebar.tsx
 import React, { useState, useMemo } from 'react';
-import { useApp } from '../context/appContext';
+import { useApp } from '../context/AppContext';
 import { Search, Users, Link, TrendingUp, Plus, Sparkles } from 'lucide-react';
 
 const allHobbies = [
