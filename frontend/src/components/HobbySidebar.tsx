@@ -32,10 +32,10 @@ export const HobbySidebar: React.FC = () => {
     setDraggedHobby(null);
   };
 
-  const showAddFeedback = (userId: string, hobby: string) => {
-    setRecentlyAdded({ userId, hobby });
-    setTimeout(() => setRecentlyAdded(null), 3000);
-  };
+  // const showAddFeedback = (userId: string, hobby: string) => {
+  //   setRecentlyAdded({ userId, hobby });
+  //   setTimeout(() => setRecentlyAdded(null), 3000);
+  // };
 
   const totalUsers = graphData?.nodes?.length || 0;
   const totalConnections = graphData?.edges?.length || 0;
