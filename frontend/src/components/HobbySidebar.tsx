@@ -11,7 +11,7 @@ const allHobbies = [
 ];
 
 export const HobbySidebar: React.FC = () => {
-  const { addHobbyToUser, graphData } = useApp();
+  const { graphData } = useApp();
   const [searchTerm, setSearchTerm] = useState('');
   const [draggedHobby, setDraggedHobby] = useState<string | null>(null);
   const [recentlyAdded, setRecentlyAdded] = useState<{userId: string, hobby: string} | null>(null);
