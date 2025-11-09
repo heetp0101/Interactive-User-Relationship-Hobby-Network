@@ -254,7 +254,7 @@ MIT
 
 ## 👤 Author
 
-Your Name - Cybernauts Development Assignment
+Heet Patel - Cybernauts Development Assignment
 
 ---
 
